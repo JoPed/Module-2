@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 42px;
+    font-size: 1.75em;
+}
+
+h2{
+    border: 1px solid black; 
+    width: 150px;
+    height: 40px;
+    margin: 0;
+    position: absolute;
+    right:10px;
+    top: 10px;
+    font-size: 1.25em;
+}
+
+.chickenHeader{
+   background-color: salmon;   
+   padding: 5px 30px;
+}
+.beefHeader{
+    background-color: silver;    
+    padding: 5px 50px;
+ }
+ .sushiHeader{
+    background-color: tan;
+    padding: 5px 45px;
+ }
+
+div.row div{
+    position: relative;
+    height: 100%;
+}
+
+
+p{
+    margin:10px;
+    padding: 50px 10px 10px 10px;
+    border: 1px solid black;
+    height: 100%;
+}
+.chickenContent p{
+    background-color: darkgreen;
+    color: darkorange;
+}
+.beefContent p{
+    background-color: purple;
+    color:white;
+}
+.sushiContent p {
+    background-color: darkblue;
+    color: darkorange;
+}
+.row{
+    width: 100%;
+}
+
+
+
+
+/* Large devices */
+@media (min-width: 992px){
+    .col-lg-4{
+        float: left;
+        width: 33.33%;
+    }
+}
+/* Medium devices */
+@media (min-width: 768px) and (max-width: 991px){
+    .col-md-6{
+        float:left;
+        width: 50%;
+    }
+    .col-md-12{
+        float: left;
+        width: 100%;
+    }
+
+}
+
+/* Small devices */
+@media (max-width: 767px){
+    .col-sm-12{
+        float: left;
+        width: 100%;
+    }
+
+}
